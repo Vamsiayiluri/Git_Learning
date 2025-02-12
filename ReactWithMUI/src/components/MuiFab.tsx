@@ -39,6 +39,7 @@ const fabGreenStyle = {
 };
 
 export default function MuiFab() {
+  console.log("chech");
   const theme = useTheme();
   const [value, setValue] = React.useState(0);
 
@@ -88,7 +89,7 @@ export default function MuiFab() {
         </Fab>
         <Fab variant="extended" size="small">
           <FavoriteIcon color="error" sx={{ mr: 1 }} />
-          version extended
+          version extended today
         </Fab>
       </Stack>
       <AppBar position="static" color="default">
