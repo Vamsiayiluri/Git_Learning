@@ -39,7 +39,6 @@ export const NewComponent = () => {
         helperText="Please select your country"
       >
         <MenuItem value="IND">India</MenuItem>
-        <MenuItem value="USA">USA</MenuItem>
         <MenuItem value="CANADA">Canada</MenuItem>
       </TextField>
     </Stack>
