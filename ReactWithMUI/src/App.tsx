@@ -11,10 +11,12 @@ import MuiAutocomplete from "./components/MuiAutocomplete";
 import { MuiLayout } from "./components/MuiLayout";
 import MuiFab from "./components/MuiFab";
 import MuiSlider from "./components/MuiSlider";
+import { Box } from "@mui/material";
 
 function App() {
   return (
     <>
+      <Box> Hello world</Box>
       {/* <MuiTypography></MuiTypography> */}
       {/* <MuiButton></MuiButton> */}
       {/* <MuiTextField></MuiTextField> */}
