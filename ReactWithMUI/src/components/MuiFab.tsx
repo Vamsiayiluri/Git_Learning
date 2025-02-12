@@ -88,7 +88,7 @@ export default function MuiFab() {
         </Fab>
         <Fab variant="extended" size="small">
           <FavoriteIcon color="error" sx={{ mr: 1 }} />
-          Extended
+          version extended
         </Fab>
       </Stack>
       <AppBar position="static" color="default">
