@@ -17,6 +17,17 @@ export const NewComponent = () => {
       <TextField
         select
         label="Select Country"
+        onChange={handleChange}
+        value={value}
+        fullWidth
+      >
+        <MenuItem value="IN">India</MenuItem>
+        <MenuItem value="USA">USA</MenuItem>
+        <MenuItem value="CANADA">Canada</MenuItem>
+      </TextField>
+      <TextField
+        select
+        label="Select Country"
         onChange={handleCountriesChange}
         value={countries}
         fullWidth
